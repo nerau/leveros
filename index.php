@@ -102,7 +102,7 @@
                     <span class="_ff-soleto _fc-teal-blue ml-4 _fs-18">Aqui você encontra tudo isso, <br />com opções de pagamento facilitadas.</span>
                 </div>
                 <div class="form-lp-container col-12 col-sm-6 px-0">
-                    <form action="">
+                    <form action="" id="painel-solar">
                         <div class="form-group">
                             <input type="text" name="nome" id="" class="form-control _ff-soleto _fs-18 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s" placeholder="Nome Completo" />
                         </div>
@@ -164,7 +164,7 @@
             <div class="lp-container px-0">
                 <div class="row justify-content-end">
                     <div class="col-12 col-sm-6">
-                        <form action="" class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
+                        <form id="casa-conectada" action="" class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
                             <div class="form-group">
                                 <input type="text" name="nome" id="" class="form-control _ff-soleto _fs-18" placeholder="Nome Completo" />
                             </div>
@@ -193,6 +193,11 @@
             </div>
         </div>
         <img src="/arquivos/lp-nov-2019-1-ecadeiras_banner_mobile.png" alt="" class="img-fluid background d-sm-none" />
+        <div class="col-12 lp-container-outer lp-container-informativo">
+            <div class="lp-container">
+                <span class="informativo">*Os descontos são exclusivos para compras de produtos relacionados na loja física Leveros São Paulo, até 30/11/2019.</span>
+            </div>
+        </div>
     </section>
     <section class="col-12 px-0 mapa">
         <div class="cabecalho col-12 _bg-blue-stone">

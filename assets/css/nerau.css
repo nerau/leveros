@@ -1,3 +1,7 @@
+._ff-soleto {
+  font-family: "Soleto";
+  line-height: 1.3; }
+
 @-webkit-keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -232,3 +236,45 @@
           display: none; }
         .section-caracteristicas .section-content li p {
           text-align: left; } }
+
+#landingpage1 section.economizar {
+  z-index: 1; }
+  #landingpage1 section.economizar img.fino, #landingpage1 section.economizar img.grosso {
+    z-index: -2; }
+  #landingpage1 section.economizar img.controle {
+    z-index: -1; }
+  #landingpage1 section.economizar .texto {
+    font-family: "Soleto"; }
+
+#landingpage1 section.ecadeiras {
+  position: relative; }
+  #landingpage1 section.ecadeiras span.informativo {
+    bottom: 10px;
+    color: #000;
+    display: block;
+    font-family: "Soleto";
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 100%;
+    text-align: center;
+    z-index: 1; }
+  #landingpage1 section.ecadeiras .lp-container-informativo {
+    position: relative;
+    top: 0; }
+    #landingpage1 section.ecadeiras .lp-container-informativo .lp-container {
+      position: relative; }
+  #landingpage1 section.ecadeiras .lp-container-outer:not(.lp-container-informativo) .lp-container > h4 {
+    font-weight: 300; }
+  #landingpage1 section.ecadeiras .lp-container-outer:not(.lp-container-informativo) .lp-container > h3 {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px; }
+  #landingpage1 section.ecadeiras .lp-container-outer:not(.lp-container-informativo) .lp-container > p {
+    margin-bottom: 2em; }
+
+#landingpage1 .texto {
+  letter-spacing: 2px;
+  line-height: 1.3; }
+
+.footer .footer-top {
+  margin-top: 2em; }
